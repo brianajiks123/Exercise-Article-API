@@ -9,8 +9,8 @@ REST API for article using Sanctum API. For now, this project is still in develo
 
 ## Screenshots
 
-![App Screenshot](./documentation/Get%20Articles.png)
-![App Screenshot](./documentation/Post%20Article.png)
+![App Screenshot](./Documentation/Get%20Articles.png)
+![App Screenshot](./Documentation/Post%20Article.png)
 
 
 ## Run Locally
