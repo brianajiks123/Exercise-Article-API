@@ -120,8 +120,6 @@ Headers:
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JavaScript, Chrome
-
 **Server:** Laravel 11, Sanctum API, MySQL, Git, Apache Web Server, Postman, VS Code, Windows 11
 
 
