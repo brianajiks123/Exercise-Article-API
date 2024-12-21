@@ -24,31 +24,31 @@ REST API for article using Sanctum API. For now, this project is still in develo
 Clone the project
 
 ```bash
-  git clone https://github.com/brianajiks123/Exercise-Article-API.git
+git clone https://github.com/brianajiks123/Exercise-Article-API.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Exercise-Article-API
+cd Exercise-Article-API
 ```
 
 Install Dependencies (Laravel)
 
 ```bash
-  composer install
+composer install
 ```
 
 Migrate Database (make sure already setup your environment in the .env file)
 
 ```bash
-  php artisan migrate
+php artisan migrate
 ```
 
 Running Development
 
 ```bash
-  php artisan serve
+php artisan serve
 ```
 
 
@@ -70,13 +70,13 @@ Headers:
 ### Get All Articles
 
 ```http
-  GET /api/v1/articles
+GET /api/v1/articles
 ```
 
 ### Add Article
 
 ```http
-  POST /api/v1/store-article
+POST /api/v1/store-article
 ```
 
 | Body                 | Type     | Description                       |
@@ -88,7 +88,7 @@ Headers:
 ### Get Specific Article
 
 ```http
-  GET /api/v1/article/{id}
+GET /api/v1/article/{id}
 ```
 
 | Params    | Type      | Description                          |
@@ -98,7 +98,7 @@ Headers:
 ### Update Article
 
 ```http
-  PUT /api/v1/update-article/{id}
+PUT /api/v1/update-article/{id}
 ```
 
 | Params    | Type      | Description                          |
@@ -112,7 +112,7 @@ Headers:
 ### Delete Article
 
 ```http
-  DELETE /api/v1/delete-article/{id}
+DELETE /api/v1/delete-article/{id}
 ```
 
 | Params    | Type      | Description                          |
