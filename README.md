@@ -107,6 +107,8 @@ PUT /api/v1/update-article/{id}
 
 | Body      | Type      | Description                          |
 | :-------- | :-------  | :---------------------------------   |
+| `title`   | `string`  | **Required**                         |
+| `content` | `text`    | **Required**                         |
 | `_method` | `PUT`     | **Required**. PUT method             |
 
 ### Delete Article
